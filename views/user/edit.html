@@ -1,0 +1,7 @@
+<form action="/user/edituser" method="post">
+<input type="hidden" name="id" value="{{.info.UserId}}"/>
+name:<input type="text" name="username" value="{{.info.UserName}}"/><br/>
+
+email:<input type="text" name="email" value="{{.info.Email}}"/><br/>
+<input type="submit" name="edit" value="修改"/>
+</form>
